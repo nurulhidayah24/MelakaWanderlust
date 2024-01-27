@@ -157,9 +157,9 @@ class PromotionTile extends StatelessWidget {
     return Card(
       child: ListTile(
         leading: imageUrl.isNotEmpty ? Image.network(imageUrl,
-        height: 100,
-        width: 100,
-        fit: BoxFit.cover, ) : null,
+          height: 100,
+          width: 100,
+          fit: BoxFit.cover, ) : null,
         title: Column(
           crossAxisAlignment: CrossAxisAlignment.start,
           children: [
